@@ -38,27 +38,42 @@
   border-bottom-left-radius: 3px;
 }
 body {
-  background: rgb(96, 143, 149); /* Old browsers */
+  min-height: 90vh;
+  padding: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+   /* background: rgb(96, 143, 149);
   background: -moz-linear-gradient(
     -45deg,
     rgba(96, 143, 149, 1) 0%,
     rgba(0, 133, 136, 1) 9%,
     rgba(12, 36, 73, 1) 52%,
     rgba(26, 30, 59, 1) 100%
-  ); /* FF3.6-15 */
+  );
   background: -webkit-linear-gradient(
     -45deg,
     rgba(96, 143, 149, 1) 0%,
     rgba(0, 133, 136, 1) 9%,
     rgba(12, 36, 73, 1) 52%,
     rgba(26, 30, 59, 1) 100%
-  ); /* Chrome10-25,Safari5.1-6 */
+  ); 
   background: linear-gradient(
     135deg,
     rgba(96, 143, 149, 1) 0%,
     rgba(0, 133, 136, 1) 9%,
     rgba(12, 36, 73, 1) 52%,
     rgba(26, 30, 59, 1) 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  ); */
+  background-image: url(healthcare-background.jpg);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#608f95', endColorstr='#1a1e3b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.botText{
+  font-style:italic;
+}
+.userText{
+  text-align:right;
+  font-weight: bolder;
+}
+.userInput{
+  width: 90% !important;
 }
